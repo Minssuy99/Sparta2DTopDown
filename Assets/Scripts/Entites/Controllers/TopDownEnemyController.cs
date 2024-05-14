@@ -32,6 +32,4 @@ public class TopDownEnemyController : TopDownController
     {
         return (ClosestTarget.position - transform.position).normalized;
     }
-
-
 }
